@@ -106,6 +106,14 @@ h3{
    </style>
         `;
     }
+    set data(article) {
+    this.shadowRoot.querySelector('.imgBig').style.backgroundImage = `url(${article.img})`; // Asignar imagen
+    this.shadowRoot.querySelector('.category').textContent = article.category; // Asignar categoría
+    this.shadowRoot.querySelector('.title').textContent = article.title; // Asignar título
+    this.shadowRoot.querySelector('.icon').style.backgroundImage = `url(${article.icon})`; // Asignar ícono
+    this.shadowRoot.querySelector('h3').textContent = article.name; // Asignar nombre
+    this.shadowRoot.querySelector('h4').textContent = article.date; // Asignar fecha
+  }
 }
 
 export default wide
