@@ -1,0 +1,82 @@
+[
+    {
+      "img":  "./assets/images/chipsIA.jpg",
+      "category": "Tecnología",
+      "title": "La revolución de los chips de inteligencia artificial",
+      "icon": "jdjj",
+      "name": "Juan Pérez",
+      "date": "2025-03-10",
+      "description": "Las compañías tecnológicas están desarrollando chips avanzados que emulan redes neuronales humanas, revolucionando los dispositivos móviles."
+    },
+    {
+      "img": "./assets/images/chinalideraIA.jpg",
+      "category": "Innovación",
+      "title": "China lidera la carrera por la inteligencia artificial",
+      "icon": "jjj",
+      "name": "María Gómez",
+      "date": "2025-03-09",
+      "description": "China implementará la inteligencia artificial como asignatura obligatoria en sus colegios, marcando un hito en la educación tecnológica."
+    
+    },
+
+    {
+      "img": "./assets/images/robotsimitanhunanos.jpg",
+      "category": "Robótica",
+      "title": "Robots que imitan movimientos humanos",
+      "icon": "jjj",
+      "name": "Laura Fernández",
+      "date":"2025-03-07",
+      "description": "Un sistema de inteligencia artificial permite a robots aprender movimientos humanos con precisión, mejorando la interacción físico-digital."
+
+    },
+    {
+      "img": "./assets/images/antenastelecomunicaciones.jpg",
+      "category": "Telecomunicaciones",
+      "title": "Nanoantenas revolucionan las telecomunicaciones",
+      "icon": "jjj",
+      "name": "Javier Osorio",
+      "date":"2025-03-08",
+      "description": "Científicos desarrollan antenas 10,000 veces más pequeñas que las actuales, ideales para entornos extremos como el espacio."
+
+
+    },
+    {
+      "img": "./assets/images/animacionesconIAfisica.jpg",
+      "category": "Animación",
+      "title": "El futuro de la animación con IA y física",
+      "icon": "jjjj",
+      "name": "Sofia Arbelaez",
+      "date":"2025-03-06",
+      "description": "Un innovador sistema combina inteligencia artificial y física para crear animaciones hiperrealistas."
+    },
+    {
+      "img": "./assets/images/teslacoches.jpg",
+      "category": "Movilidad",
+      "title": "Tesla y el futuro de los coches eléctricos",
+      "name": "Diego Torres",
+      "date":"2025-03-06",
+      "description": "Tesla enfrenta desafíos en el mercado mientras redefine el futuro de los vehículos eléctricos."
+    },
+    {
+      "img": "./assets/images/Deepseek.jpg",
+      "category": "Big Data",
+      "title": "DeepSeek: La IA que revoluciona la búsqueda de datos",
+      "icon": "dd",
+      "name": "Elena Ruiz",
+      "date":"2025-03-05",
+      "description":"DeepSeek, una IA avanzada, transforma la forma en que se analizan y procesan grandes volúmenes de datos."
+
+    },
+    {
+      "img": "./assets/images/Red5G.jpg",
+      "category": "Redes",
+      "title": "El impacto del 5G en la conectividad global",
+      "icon": "jjj",
+      "name": "Pedro Rodriguez",
+      "date":"2025-03-04",
+      "description": "La tecnología 5G promete una conectividad más rápida y estable, impulsando la transformación digital en todo el mundo."
+    }
+  ]
+
+  
+  
