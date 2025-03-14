@@ -64,11 +64,11 @@ class big extends HTMLElement{
 }
 
 .icon{
-    background-color: aqua;
     display: flex;
     height: 50px;
     width: 50px;
     border-radius: 100px;
+    background-size: cover;
 }
 
 .date{

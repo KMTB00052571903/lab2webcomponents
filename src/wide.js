@@ -52,7 +52,7 @@ class wide extends HTMLElement{
 }
 
 .icon{
-    background-color: aqua;
+    background-size: cover;
     display: flex;
     height: 50px;
     width: 50px;
@@ -108,7 +108,6 @@ h3{
     }
     set data(article) {
          console.log('URL de imagen:', article.img); // Verificar la URL
-    this.shadowRoot.querySelector('.imgBig').style.backgroundImage = `url(${article.img})`; // Asignar imagen
     this.shadowRoot.querySelector('.category').textContent = article.category; // Asignar categoría
     this.shadowRoot.querySelector('.title').textContent = article.title; // Asignar título
     this.shadowRoot.querySelector('.icon').style.backgroundImage = `url(${article.icon})`; // Asignar ícono

@@ -76,6 +76,36 @@
       "name": "Pedro Rodriguez",
       "date":"2025-03-04",
       "description": "La tecnología 5G promete una conectividad más rápida y estable, impulsando la transformación digital en todo el mundo."
+    },
+    {
+      "img":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXoEPWB7n5BexAa0WDKfNXMLJw5tL8dutc4w&s",
+      "category": "Tecnología",
+      "title": "La revolución de los chips de inteligencia artificial",
+      "icon": "https://static.thenounproject.com/png/1743561-200.png",
+      "name": "Juan Pérez",
+      "date": "2025-03-10",
+      "description": "Las compañías tecnológicas están desarrollando chips avanzados que emulan redes neuronales humanas, revolucionando los dispositivos móviles."
+    },
+    {
+      "img": "https://www.revistaeyn.com/binrepository/1200x698/0c0/0d0/none/26086/QLAF/chips-china_7932164_20240704185641.jpg",
+      "category": "Innovación",
+      "title": "China lidera la carrera por la inteligencia artificial",
+      "icon": "https://static.thenounproject.com/png/1743561-200.png",
+      "name": "María Gómez",
+      "date": "2025-03-09",
+      "description": "China implementará la inteligencia artificial como asignatura obligatoria en sus colegios, marcando un hito en la educación tecnológica."
+    
+    },
+
+    {
+      "img": "https://i.ytimg.com/vi/TJmQqC1nHTU/maxresdefault.jpg",
+      "category": "Robótica",
+      "title": "Robots que imitan movimientos humanos",
+      "icon": "https://static.thenounproject.com/png/1743561-200.png",
+      "name": "Laura Fernández",
+      "date":"2025-03-07",
+      "description": "Un sistema de inteligencia artificial permite a robots aprender movimientos humanos con precisión, mejorando la interacción físico-digital."
+
     }
   ]
 

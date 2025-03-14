@@ -1,16 +1,12 @@
 import big from "./big.js";
-
-customElements.define('article-big',big)
-
 import small from "./small.js";
-
-customElements.define('article-small',small)
-
 import wide from "./wide.js";
 
+customElements.define('article-big',big)
+customElements.define('article-small',small)
 customElements.define('article-wide',wide)
 
-fetch('./data/info.JSON')
+fetch('/data/info.json')
   .then((response) => response.json()) // Parsear el JSON
   .then((data) => {
    
@@ -26,14 +22,12 @@ fetch('./data/info.JSON')
 
     const smallArticles = smallContainer.querySelectorAll("article-small");
     smallArticles.forEach((article, index) => {
-      
       article.data = data[index + bigArticles.length];
     });
 
    
     const wideArticles = wideContainer.querySelectorAll("article-wide");
     wideArticles.forEach((article, index) => {
-   
       article.data = data[index + bigArticles.length + smallArticles.length];
     });
   })
