@@ -1,20 +1,30 @@
-body{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
+class big extends HTMLElement{
+    constructor(){
+        super()
+        this.attachShadow({mode: 'open'})
+        this.shadowRoot.innerHTML = `
+            <div class="articleBig">
+        
+        <div class="imgBig"></div>
 
-.mainTitle{
-    width: 60%;
-}
+        <div class="mainText">
+            <h2 class="category">Categoria</h2>
+            <h2 class="title">Titulo</h2>
+        </div>
 
-.navButtons{
-    display:flex;
-    justify-content: space-evenly;
-    width:20%;
-}
+        <div class="nameRef">
+            <div class="name">
+                <div class="icon"></div>
+                <h3>Name Lastname</h3>
+            </div>
+            <div class="date">
+                <h4>1/1/1990</h4>
+            </div>
+         </div>
 
-.articleBig{
+    </div>
+       <style>
+ .articleBig{
     display: flex;
     width: 550px;
     height: 400px;
@@ -24,6 +34,7 @@ body{
     border-color: dimgray;
     border-width: 2px;
     border-style:solid;
+    margin: 10px;
 }
 
 .nameRef{
@@ -104,73 +115,10 @@ h3{
     font-style: normal;
     color:rgb(73, 73, 73);
 }
-
-.articleSmall{
-    display: flex;
-    width: 350px;
-    height: 400px;
-    background-color: #f4f0f0;
-    flex-direction: column;
-    border-radius: 10px;
-    border-color: dimgray;
-    border-width: 2px;
-    border-style:solid;
+   </style>
+        `;
+    }
 }
 
-.imgSmall{
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    width: 350px;
-    height: 250px;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wikipedia_editor_hat_w_dog.JPG/320px-Wikipedia_editor_hat_w_dog.JPG);
-}
+export default big
 
-.nameSmall{
-    font-size: 12px;
-    padding: 5px;
-    display: flex;
-    width: 275px;
-    height: auto;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.articleWide{
-    display: flex;
-    width: 450px;
-    height: 200px;
-    background-color: #f4f0f0;
-    flex-direction: column;
-    border-radius: 10px;
-    border-color: dimgray;
-    border-width: 2px;
-    border-style:solid;
-}
-
-button{
-    background-color: white;
-    color: black;
-    border-style: hidden;
-    border-radius: 10px;
-    padding: 5px;
-    transition: background-color 0.5s;
-}
-
-button:hover{
-    background-color:rgb(218, 218, 218);
-    border-style: hidden;
-    border-radius: 10px;
-    padding: 5px;
-}
-
-.setBttn{
-    background-color: black;
-    color: white;
-    border-style: hidden;
-    border-radius: 10px;
-    padding: 5px;
-}
