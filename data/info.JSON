@@ -1,6 +1,6 @@
 [
     {
-      "img":  "./assets/images/chipsIA.jpg",
+      "img":  "./images/chipsIA.jpg",
       "category": "Tecnología",
       "title": "La revolución de los chips de inteligencia artificial",
       "icon": "jdjj",
@@ -9,7 +9,7 @@
       "description": "Las compañías tecnológicas están desarrollando chips avanzados que emulan redes neuronales humanas, revolucionando los dispositivos móviles."
     },
     {
-      "img": "./assets/images/chinalideraIA.jpg",
+      "img": "./images/chinalideraIA.jpg",
       "category": "Innovación",
       "title": "China lidera la carrera por la inteligencia artificial",
       "icon": "jjj",
@@ -20,7 +20,7 @@
     },
 
     {
-      "img": "./assets/images/robotsimitanhunanos.jpg",
+      "img": "./images/robotsimitanhunanos.jpg",
       "category": "Robótica",
       "title": "Robots que imitan movimientos humanos",
       "icon": "jjj",
@@ -30,7 +30,7 @@
 
     },
     {
-      "img": "./assets/images/antenastelecomunicaciones.jpg",
+      "img": "./images/antenastelecomunicaciones.jpg",
       "category": "Telecomunicaciones",
       "title": "Nanoantenas revolucionan las telecomunicaciones",
       "icon": "jjj",
@@ -41,7 +41,7 @@
 
     },
     {
-      "img": "./assets/images/animacionesconIAfisica.jpg",
+      "img": "./images/animacionesconIAfisica.jpg",
       "category": "Animación",
       "title": "El futuro de la animación con IA y física",
       "icon": "jjjj",
@@ -50,7 +50,7 @@
       "description": "Un innovador sistema combina inteligencia artificial y física para crear animaciones hiperrealistas."
     },
     {
-      "img": "./assets/images/teslacoches.jpg",
+      "img": "./images/teslacoches.jpg",
       "category": "Movilidad",
       "title": "Tesla y el futuro de los coches eléctricos",
       "name": "Diego Torres",
@@ -58,7 +58,7 @@
       "description": "Tesla enfrenta desafíos en el mercado mientras redefine el futuro de los vehículos eléctricos."
     },
     {
-      "img": "./assets/images/Deepseek.jpg",
+      "img": "./images/Deepseek.jpg",
       "category": "Big Data",
       "title": "DeepSeek: La IA que revoluciona la búsqueda de datos",
       "icon": "dd",
@@ -68,7 +68,7 @@
 
     },
     {
-      "img": "./assets/images/Red5G.jpg",
+      "img": "./images/Red5G.jpg",
       "category": "Redes",
       "title": "El impacto del 5G en la conectividad global",
       "icon": "jjj",
