@@ -10,7 +10,7 @@ import wide from "./wide.js";
 
 customElements.define('article-wide',wide)
 
-fetch('./public/info.JSON')
+fetch('./data/info.JSON')
   .then((response) => response.json()) // Parsear el JSON
   .then((data) => {
    
